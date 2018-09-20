@@ -1,8 +1,6 @@
 FROM awhalen/docker-php-composer-node
 MAINTAINER fdsze <freddie@y714.com>
 
-ENV DEBIAN_FRONTEND noninteractive
-
 # setup workdir
 RUN mkdir -p /root/work/
 WORKDIR /root/work/
