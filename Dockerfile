@@ -12,4 +12,4 @@ RUN apt-get -y update && apt-get -y install git && apt-get -y install lftp && ap
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/man/?? /usr/share/man/??_*
 
 # configure the image to send insecure requests regardless of the ftp server ssl
-RUN git config git-ftp.insecure 1
+# RUN git config git-ftp.insecure 1
